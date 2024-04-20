@@ -1,0 +1,61 @@
+body {
+	background: black;
+	font-family: "Jersey 15", sans-serif;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	padding: 10px 10px;
+	width: 100%;
+	margin: 0;
+}
+.postcard-header img {
+	padding: 10px 10px;
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left,
+.body-right {
+	font-size: large;
+	padding: 10px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+input {
+	padding: 2px;
+	border-style: none;
+	border-bottom: 1px solid gray;
+	font-family: "Jersey 15", sans-serif;
+	font-weight: bold;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgray;
+	padding: 10px;
+	border-radius: 8%;
+	font-family: "Jersey 15", sans-serif;
+	font-weight: bold;
+}
+button:hover {
+	background-color: darkgrey;
+}
+
+button:active {
+	background-color: darkgray;
+	box-shadow: 0 5px black;
+	transform: translateY(4px);
+}
